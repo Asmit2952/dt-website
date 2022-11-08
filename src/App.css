@@ -14,6 +14,19 @@ a {
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-bg); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-blog); 
+    border-radius: 10px;
+}
+
 .gradient_bg {
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
